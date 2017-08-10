@@ -245,7 +245,7 @@ function character(letter) {
 2. Write the command to create a file called "index.html".
 - touch index.html
 3. Write the command to delete a file called "main.css".
-- rm -r main.css
+- rm main.css
 
 ## Git
 
