@@ -114,32 +114,32 @@ charFreq("abcdefg");
 
 1. Write a JavaScript statement that finds the element with the ID, `next`, and saves it to a variable called `nextButton`:
 
-  ```html
-  <a href="#" id="next" class="btn">Next</a>
+```html
+<a href="#" id="next" class="btn">Next</a>
 
-  var nextButton = document.getElementById("next");
-  ```
+var nextButton = document.getElementById("next");
+```
 
 2. Write another line that updates the text of `nextButton` to `"Next image"`.
 
-  ```nextButton.innerHTML = "Next image";
-  ```
+````nextButton.innerHTML = "Next image";
+````
 
 3. Write another line that adds a click event listener to `nextButton` so that when it's clicked the browser alerts `"Next image coming up."`.
 
-```nextButton.addEventListener(click, function () { 
-  alert("Next image coming up"); 
-  });
-  ```
+````nextButton.addEventListener(click, function () { 
+alert("Next image coming up"); 
+});
+````
 
 ## jQuery
 
 ### Questions
 
 1. What is a JavaScript library and why do we use them?
-  -A JavaScript library is a library of pre-written JavaScript which allows for easier development of JavaScript-based     applications. It can simplify common tasks and reduce the amount of code that the developer has to write.
+  --A JavaScript library is a library of pre-written JavaScript which allows for easier development of JavaScript-based     applications. It can simplify common tasks and reduce the amount of code that the developer has to write.
 2. What is jQuery for?
-  -jQuery is the most popular JavaScript library used today.
+  --jQuery is the most popular JavaScript library used today.
 ### Exercises
 
 1. Write a statement to select all elements with the `.btn` class using a jQuery selector and save them to a variable called `buttons`:
@@ -154,10 +154,10 @@ charFreq("abcdefg");
   
 2. Write another line that adds a click event to the buttons that logs `'click'` to the console when the button is clicked. Use the jQuery syntax.
 
-  ```$(buttons).click(function () {
+  ````$(buttons).click(function () {
   console.log("click"); 
   });
-  ```
+  ````
   
 ## Angular
 
