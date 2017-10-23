@@ -76,8 +76,8 @@
 
 1. Write a function `filterLongWords()` that takes an array of words and an integer `num` and returns the array of words that are longer than `num`.
 
-```
-javascriptfunction filterLongestWords(words, num) {
+```javascript
+function filterLongestWords(words, num) {
   var longerThanNumArr = [];
   for(var i = 0; i<words.length; i++) {
     if(words[i].length > num) {
