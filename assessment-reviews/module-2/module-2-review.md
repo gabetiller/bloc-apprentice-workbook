@@ -76,16 +76,17 @@
 
 1. Write a function `filterLongWords()` that takes an array of words and an integer `num` and returns the array of words that are longer than `num`.
 
-    ````function filterLongestWords(words, num) {
-      // 1. filter through the array
-      var longerThanNumArr = [];
-      for(var i = 0; i<words.length; i++) {
-        if(words[i].length > num) {
-          longerThanNumArr.push(words[i])
-        }  
-      }
-    }
-    filterLongestWords(["golden", "chihuaha", "labrador", "mut", "sheperd"], 1)````
+````function filterLongestWords(words, num) {
+  // 1. filter through the array
+  var longerThanNumArr = [];
+  for(var i = 0; i<words.length; i++) {
+    if(words[i].length > num) {
+      longerThanNumArr.push(words[i])
+    }  
+  }
+}
+filterLongestWords(["golden", "chihuaha", "labrador", "mut", "sheperd"], 1)
+````
     
 2. Write a function `charFreq()` that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like `charFreq("abbabcbdbabdbdbabababcbcbab")`.
 
@@ -100,7 +101,8 @@
   }
   console.log(freqObj);
 }
-charFreq("abcdefg");````
+charFreq("abcdefg");
+````
 
 ## DOM Scripting
 
@@ -116,17 +118,20 @@ charFreq("abcdefg");````
   ```html
   <a href="#" id="next" class="btn">Next</a>
   ```
-  ````var nextButton = document.getElementById("next");````
+  ````var nextButton = document.getElementById("next");
+  ````
 
 2. Write another line that updates the text of `nextButton` to `"Next image"`.
 
-  ````nextButton.innerHTML = "Next image";````
+  ````nextButton.innerHTML = "Next image";
+  ````
 
 3. Write another line that adds a click event listener to `nextButton` so that when it's clicked the browser alerts `"Next image coming up."`.
 
 ````nextButton.addEventListener(click, function () { 
   alert("Next image coming up"); 
-  });````
+  });
+  ````
 
 ## jQuery
 
@@ -145,13 +150,15 @@ charFreq("abcdefg");````
   <a href="#" id="beginning" class="btn">Beginning</a>
   <a href="#" id="previous" class="btn">Previous</a>
   ```
-  ````var $buttons = $(".btn)";````
+  ````var $buttons = $(".btn)";
+  ````
   
 2. Write another line that adds a click event to the buttons that logs `'click'` to the console when the button is clicked. Use the jQuery syntax.
 
   ````$(buttons).click(function () {
   console.log("click"); 
-  });````
+  });
+  ````
   
 ## Angular
 
