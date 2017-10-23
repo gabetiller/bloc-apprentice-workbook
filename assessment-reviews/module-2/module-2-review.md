@@ -76,7 +76,8 @@
 
 1. Write a function `filterLongWords()` that takes an array of words and an integer `num` and returns the array of words that are longer than `num`.
 
-````function filterLongestWords(words, num) {
+```
+javascriptfunction filterLongestWords(words, num) {
   var longerThanNumArr = [];
   for(var i = 0; i<words.length; i++) {
     if(words[i].length > num) {
@@ -85,11 +86,12 @@
   }
 }
 filterLongestWords(["golden", "chihuaha", "labrador", "mut", "sheperd"], 1)
-````
+```
     
 2. Write a function `charFreq()` that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like `charFreq("abbabcbdbabdbdbabababcbcbab")`.
 
-````function charFreq(str) {
+```javascript
+function charFreq(str) {
   var freqObj = {};
   for(var i = 0; i<str.length; i++) {
     if (!freqObj[str[i]]) {
@@ -101,7 +103,7 @@ filterLongestWords(["golden", "chihuaha", "labrador", "mut", "sheperd"], 1)
   console.log(freqObj);
 }
 charFreq("abcdefg");
-````
+```
 
 ## DOM Scripting
 
@@ -122,15 +124,17 @@ var nextButton = document.getElementById("next");
 
 2. Write another line that updates the text of `nextButton` to `"Next image"`.
 
-````nextButton.innerHTML = "Next image";
-````
+```javascript
+nextButton.innerHTML = "Next image";
+```
 
 3. Write another line that adds a click event listener to `nextButton` so that when it's clicked the browser alerts `"Next image coming up."`.
 
-````nextButton.addEventListener(click, function () { 
+```javascript
+nextButton.addEventListener(click, function () { 
 alert("Next image coming up"); 
 });
-````
+```
 
 ## jQuery
 
@@ -149,15 +153,17 @@ alert("Next image coming up");
   <a href="#" id="beginning" class="btn">Beginning</a>
   <a href="#" id="previous" class="btn">Previous</a>
   ```
-  ```var $buttons = $(".btn)";
+  ```javascript
+  var $buttons = $(".btn)";
   ```
   
 2. Write another line that adds a click event to the buttons that logs `'click'` to the console when the button is clicked. Use the jQuery syntax.
 
-  ````$(buttons).click(function () {
+  ```javascript
+  $(buttons).click(function () {
   console.log("click"); 
   });
-  ````
+  ```
   
 ## Angular
 
