@@ -116,9 +116,8 @@ charFreq("abcdefg");
 
   ```html
   <a href="#" id="next" class="btn">Next</a>
-  ```
-  
-```var nextButton = document.getElementById("next");
+
+  var nextButton = document.getElementById("next");
   ```
 
 2. Write another line that updates the text of `nextButton` to `"Next image"`.
