@@ -13,20 +13,22 @@
 ### Questions
 
 1. What is the box model?
-  -The CSS box model is a design/layout concept. All html elements can be considered a box. When styling HTML, the box model is what informs the layout decisions of content. It consists of:
+  - The CSS box model is a design/layout concept. All html elements can be considered a box. When styling HTML, the box model is what informs the layout decisions of content. It consists of:
     1. content: the html element
     2. padding: the space between the content and the border
     3. border: the outer edge of the content and padding
     4. margin: the space between the border and the next element
 2. What is the difference between block and inline elements?
-  -HTML block elements are by default stacked vertically, on separate lines. 
-  -Inline elements are on the same horizontal line, for example, the navigation.
+  - HTML block elements are by default stacked vertically, on separate lines. 
+  - Inline elements are on the same horizontal line, for example, the navigation.
 3. What is responsive design?
-  -
+  - Responsive Web design is an approach to web design and development that responds to the user's behavior and environment based on screen size, platform and orientation. 
 4. Which selector is more specific, a tag selector or class selector?
+  - a class selector is more specific than a tag selector.
 5. What does `box-sizing` do?
+  - box-sizing is a means to manipulate the default css behavior of a content's box. border-box tells the browser to account for any border and padding in the value you specify for width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width.
 6. What's the difference between `relative` and `absolute` positioning?
-
+  - Positioning is a css property that is used to design css layouts. The primary difference between relative and absolute positioning is that while the relative value keeps the elements in the normal flow, that is, they are stacked on top of one another. Absolute positioning removes the element from the 'normal flow', so it's not affected by any other elements and can be positioned anywhere we want.
 ### Exercises
 
 1. Write a CSS rule to turn the background color of the link with the `.btn` class blue on hover:
@@ -34,6 +36,12 @@
   ```html
   <a href="#" class="btn">Learn more</a>
   ```
+  ```css
+  .btn: hover {
+    background-color: blue;
+    }
+    ```
+  
 
 2. Write a CSS rule to give the `.container` a maximum width of `980px` when the browser window is wider than `1200px`:
 
@@ -42,6 +50,13 @@
     <h1>I'm a heading!</h1>
   </div>
   ```
+  ```css
+  @media screen and (min-width: 1200px) {
+	.container {
+    { width: 980px; 
+    }
+  }
+  
 
 3. Which text would be red in the following example?
 
@@ -63,6 +78,7 @@
     <p>Third paragraph</p>
   </section>
   ```
+  - the third `html <p>` in each `<section>`
 
 4. Open this [JSBin](http://jsbin.com/qigiwuhepe/1/edit?html,css,output). Write a CSS rule using floats to make the HTML sample into a four column layout. Paste your udpated link below.
 
