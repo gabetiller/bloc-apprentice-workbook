@@ -78,7 +78,7 @@
     <p>Third paragraph</p>
   </section>
   ```
-  - the third `html <p>` in each `<section>`
+  - the third `<p>` in each `<section>`
 
 4. Open this [JSBin](http://jsbin.com/qigiwuhepe/1/edit?html,css,output). Write a CSS rule using floats to make the HTML sample into a four column layout. Paste your udpated link below.
 
