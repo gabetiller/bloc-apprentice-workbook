@@ -11,12 +11,12 @@
 ### Questions
 
 1. What is HTML and what is it used for? 
-   -HTML stands for hypertext markup language. It is a language to create web pages and web applications
+   - HTML stands for hypertext markup language. It is a language to create web pages and web applications
 2. What is the difference between an ID and a class?
-   -Id's are unique: each element can only have one id. 
-   -Classes are not unique. You can have as many as you want for an element. You can use multiple classes on the same element.
+   - Id's are unique: each element can only have one id. 
+   - Classes are not unique. You can have as many as you want for an element. You can use multiple classes on the same element.
 3. What does it mean to write "semantic" HTML?
-   Using HTML markup reinforce the meaning of the information in webpages and web applications, not just definitng its presentation or look. Ex. h1, h2, p,
+   Using HTML markup that reinforces the meaning of the information in webpages and web applications, not just definitng its presentation or look. For example, `<div>` or `<span>` doesnt give the developer any semantics of what those elements represent. `<nav>`, `<section>`, or `<footer>` are example of semantic html, because you can tell what the elements represent.
 
 ### Exercises
 
