@@ -21,11 +21,11 @@
 ### Exercises
 
 1. Write a paragraph tag with a class of "highlight" and content "Watch out!". 
-`<p class = "highlight">Watch out!</p>`
+- `<p class = "highlight">Watch out!</p>`
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
-`<img src = "profile-picture.jpg">`
+- `<img src = "profile-picture.jpg">`
 3. Write a link tag that links to http://google.com.
-`<a href="http://google.com"></a>`
+- `<a href="http://google.com"></a>`
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
 ``` HTML 
 <DOCTYPE! HTML>
@@ -66,7 +66,7 @@
 2. What is the CSS box model?
 - it is a way of thinking about designing content, which include the content itself, the padding that surrounds the content, the border, and the margin (which is outside of the box, between the box and another element.)
 3. What's the difference between margin and padding? 
--margin is outside of the border, padding is inside, between the border and the content.
+- margin is outside of the border, padding is inside, between the border and the content.
 
 ### Exercises
 
